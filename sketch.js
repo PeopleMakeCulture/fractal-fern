@@ -15,7 +15,7 @@ function setup() {
 function draw() {
   stroke(200);
   strokeWeight(1);
-  background(50);
+  background(0);
 
   if (animate === true) {
     angle = slider.value() + (millis() * animMult);
